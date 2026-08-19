@@ -3,6 +3,9 @@ on:
   push:
     branches: [shake-torch-build]
     paths: ['shake-torch/**', '.github/workflows/build-shake-torch.yml']
+  pull_request:
+    branches: [main]
+    paths: ['shake-torch/**', '.github/workflows/build-shake-torch.yml']
   workflow_dispatch:
 jobs:
   build:
