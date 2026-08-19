@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'it.farmaciso.shaketorch'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'it.farmaciso.shaketorch'
+        minSdk 26
+        targetSdk 33
+        versionCode 1
+        versionName '1.0'
+    }
+}
